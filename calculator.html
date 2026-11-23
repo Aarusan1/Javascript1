@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p2 {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <p>Welcome to the calculator today we will be doing addition, subtraction, multiplication and division.</p>
+     <p id="add" style="font-style: italic;"></p>
+     <p id="sub" style="font-style: italic;"></p>
+     <p id="mul" style="font-style: italic;"></p>
+     <p id="div" style="font-style: italic;"></p>
+  
+</body>
+<script>
+    var x = 20;
+    var y = 10;
+    var a = x+y;
+    var s = x-y;
+    var m = x*y;
+    var d = x/y;
+    document.getElementById("add").innerHTML = +x+ " + " +y+ " = " +a;
+    document.getElementById("sub").innerHTML = +x+ " - " +y+ " = " +s;
+    document.getElementById("mul").innerHTML = +x+ " * " +y+ " = " +m;
+    document.getElementById("div").innerHTML = +x+ " / " +y+ " = " +d;
+
+
+
+</script>
+</html>
